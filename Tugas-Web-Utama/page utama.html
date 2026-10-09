@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Puma Lamelo Ball</title>
+    <style>
+        /* === KELOLA WARNA DI SINI === */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* WARNA BACKGROUND Halaman */
+            color: #333333;           /* WARNA TEKS Utama */
+        }
+
+        /* 1. HEADER (Logo + Home) */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #111111; /* WARNA BACKGROUND Header Navbar */
+            padding: 15px 30px;
+            color: #ffffff;
+        }
+        .navbar .logo img {
+            height: 40px; /* Ukuran Tinggi Logo Navbar */
+        }
+        .navbar .menu-top a {
+            color: #ffffff;            /* WARNA TEKS Menu Atas */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* CONTAINER UTAMA */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;      /* WARNA BACKGROUND Kertas/Kotak Konten */
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        /* 2. IMAGE BANNER ATAS */
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        /* 3. DESKRIPSI LAMELO BALL & TOMBOL MENU */
+        .info-section {
+            padding: 10px 0;
+        }
+        .info-section h2 {
+            margin-top: 0;
+            color: #111111;            /* WARNA JUDUL Lamelo Ball */
+        }
+        .info-section p {
+            line-height: 1.6;
+        }
+        .menu-buttons {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .menu-buttons a {
+            padding: 10px 15px;
+            background-color: #e0e0e0; /* WARNA TOMBOL Menu */
+            color: #000000;            /* WARNA TEKS Tombol Menu */
+            text-decoration: none;
+            border: 1px solid #999;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .menu-buttons a:hover {
+            background-color: #111111; /* WARNA TOMBOL Pas di-Hover/Sorot */
+            color: #ffffff;
+        }
+
+        /* 4. IMAGE TENGAH */
+        .middle-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+
+        /* 5. FOOTER (Logo Bawah) */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111111; /* WARNA BACKGROUND Footer Bawah */
+            margin-top: 20px;
+        }
+        .footer img {
+            height: 50px; /* Ukuran Tinggi Logo Footer */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. HEADER ATAS -->
+    <div class="navbar">
+        <div class="logo">
+            <!-- GANTI LOKASI/NAMA FOTO LOGO DI SINI -->
+            <img src="https://via.placeholder.com/120x40?text=Logo+Puma" alt="Logo Puma">
+        </div>
+        <div class="menu-top">
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- 2. IMAGE BANNER ATAS -->
+        <div class="banner">
+            <!-- GANTI FOTO BANNER DI SINI -->
+            <img src="https://via.placeholder.com/800x300?text=Banner+Image" alt="Image Banner">
+        </div>
+
+        <!-- 3. LAMELO BALL & MENU TOMBOL -->
+        <div class="info-section">
+            <!-- GANTI TULISAN JUDUL DI SINI -->
+            <h2>Lamelo Ball</h2>
+            <!-- GANTI TULISAN DESKRIPSI DI SINI -->
+            <p>Ini adalah deskripsi singkat tentang sepatu atau koleksi terbaru dari Lamelo Ball x Puma. Desain impresif dengan performa tinggi untuk lapangan basket.</p>
+            
+            <!-- MENU NAVIGASI TOMBOL -->
+            <div class="menu-buttons">
+                <a href="index.html">Home</a>
+                <a href="produk.html">Produk</a>
+                <a href="galeri.html">Galeri</a>
+                <a href="kontak.html">Hub Kami</a>
+            </div>
+        </div>
+
+        <!-- 4. IMAGE TENGAH -->
+        <div class="middle-image">
+            <!-- GANTI FOTO TENGAH DI SINI -->
+            <img src="https://via.placeholder.com/800x400?text=Image+Lamelo+Ball" alt="Image Tengah">
+        </div>
+    </div>
+
+    <!-- 5. FOOTER BAWAH -->
+    <div class="footer">
+        <!-- GANTI FOTO LOGO FOOTER DI SINI -->
+        <img src="https://via.placeholder.com/150x50?text=Logo+Puma" alt="Logo Puma Bawah">
+    </div>
+
+</body>
+</html>
